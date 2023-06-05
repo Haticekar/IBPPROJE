@@ -1,0 +1,41 @@
+
+Bootstrap and Responsive Design:
+I used the Bootstrap framework to provide a responsive design that works well on desktop,
+tablet and mobile.
+I tried to structure your HTML using Bootstrap classes and components for responsive
+layout and styling.
+
+
+2. Admin Panel and Login Page:
+Create an Admin Panel using the AdminLTE template, which is Bootstrap compatible and
+provides a user-friendly interface to manage the system.
+Implemented a login page where administrators can log in using their email and passwords.
+
+
+3. User Roles and Authentication:
+At least two user roles have been defined in the database, such as "Administrator" and
+"Standard User".
+Implement user registration and login functionality, where users can register with their
+email (username) and password.
+Tried to encrypt passwords using a secure hash algorithm like SHA.
+
+
+4. Admin Pages:
+Name, email, role, etc. Attempted to create pages for administrators to manage (add,
+update, delete) users, including user information.
+Implement a separate page for the administrator to save, update and delete announcements
+to be displayed on the home page of standard users.
+Provided functionality for administrators to read and reply to messages sent by standard
+users. View the sender, timestamp and message content.
+
+
+5. Standard User Pages:
+Implement a login page for standard users to access their account using their email and
+password.
+Allow standard users to update their own passwords.
+Pages are provided for standard users to view data (eg player records) entered by the
+administrator and search using grids or lists with search functionality.
+Standard users have been enabled to see the announcements from the administrator on the
+home page.
+An attempt was made to add a page where standard users can send messages to the
+administrator and the administrator can read and reply to these messages.
